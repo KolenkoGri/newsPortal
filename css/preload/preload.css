@@ -1,0 +1,25 @@
+.overlay {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    width: 100px;
+    height: 100px;
+}
+
+.overlay {
+    animation: rotate 2s linear infinite;
+}
+
+.preload {
+    background-image: url(../../image/preload.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes rotate {
+from {
+    transform: rotate(-360deg);
+}
+}

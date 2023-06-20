@@ -1,4 +1,4 @@
-const noPhoto = '../../image/no_photo.png'
+const noPhoto = '../../image/no_photo.png';
 export const renderCard = (err, data) => {
     console.log(data);
     if(err) {
@@ -52,23 +52,3 @@ export const renderCard = (err, data) => {
 
     return template;
 };
-
-            // articleBlock.insertAdjacentHTML('beforeend',`
-            // <div class="article__content">
-            //     <div class="article__image">
-            //         <img class = "article__image--pic" src=${d.urlToImage} alt="">
-            //     </div>
-            //     <div class="article__text-arrow">
-            //         <div class="article__text">${d.title}</div>
-            //         <a class="article__arrow" href=${d.url}></a>
-            //     </div>
-            //     <div class="article__descrip">${d.description}</div>
-            //     <div class="article__footer">
-            //         <div class="article__date-time">
-            //             <div class="article__date">${d.publishedAt.split('').slice(0,10).join('')}</div>
-            //             <div class="article__time">${d.publishedAt.split('').slice(11,16).join('')}</div>
-            //         </div>
-            //         <div class="article__author">${d.author}</div>
-            //     </div>
-            // </div>
-            // `)  

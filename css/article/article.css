@@ -1,3 +1,11 @@
+.article {
+    display: none;
+}
+
+.article__open {
+    display: block;
+}
+
 .article__title {
     font-family: 'Roboto';
     font-style: normal;
