@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="script/script.js" type="module" ></script>
+    <title>NewsPortal</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="header__navigation">
+                <div class="header__logo">
+                    <div class="header__image"></div>
+                </div>
+                <div class="header__filter">
+                    <form class="header__search">
+                        <button class="header__magnifer" type="submit"></button>
+                        <input class="header__input" placeholder="Я хочу узнать про...">
+                    </form>
+                    <div class="header__choice">
+                        <div class="header__dropdown"></div>
+                        <select class="header__select" name="country" id="country">
+                            <option value="Russia" selected="selected">Россия</option>
+                        </select>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="search">
+            <div class="container search__container">
+                <h2 class="search__title">Свежие новости</h2>
+                <div class="search__block"></div>
+            </div>
+        </section>
+        <section class="article">
+            <div class="container article__container">
+                <h2 class="article__title">Свежие новости</h2>
+                <div class="article__block">
+                    <!-- <div class="article__content">
+                        <div class="article__image"></div>
+                        <div class="article__text-arrow">
+                            <div class="article__text">В России начали выпускать суверенные печатные платы — в них только отечественное сырьё и материалы</div>
+                            <a class="article__arrow"></a>
+                        </div>
+                        <div class="article__descrip">Холдинг «Российские космические системы», входящий в состав «Роскосмоса»...</div>
+                        <div class="article__footer">
+                            <div class="article__date-time">
+                                <div class="article__date">16/03/2022</div>
+                                <div class="article__time">11:06</div>
+                            </div>
+                            <div class="article__author">Эрик Крипке</div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

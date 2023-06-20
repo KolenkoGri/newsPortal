@@ -1,0 +1,77 @@
+.header {
+    margin-bottom: 20px;
+}
+
+.header__navigation {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 214px;
+}
+
+.header__logo {
+    background-image: url(../../image/logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 40px;
+    min-width: 76px;
+}
+
+.header__filter {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header__search {
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header__input {
+    width: 100%;
+    min-height: 44px;
+    padding-left: 20px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 22px;
+}
+
+.header__magnifer{
+    background-image: url(../../image/search.svg);
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    border: none;
+    background-color: white;
+}
+
+.header__choice {
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header__dropdown {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../image/Arrow\ drop\ down.svg);
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.header__select {
+    min-height: 44px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 22px;
+    padding-left: 20px;
+    appearance: none;
+}
