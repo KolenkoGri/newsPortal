@@ -38,7 +38,8 @@ headerSearch.addEventListener('submit', (e) => {
         article.classList.toggle('article__open');
     
         searchBlock.append(data[1]);
-        searchTitle.textContent = `По вашему запросу “${headerInput.value}” найдено 4 результата`
+        const articleContent = document.querySelectorAll('.search__block .article__content');
+        searchTitle.textContent = `По вашему запросу “${headerInput.value}” найдено ${articleContent.length} результата`
         search.classList.toggle('search__open');
     });
 })
